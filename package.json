@@ -4,11 +4,13 @@
   "description": "testing webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
   },
   "author": "Daniel Galvao",
   "license": "ISC",
   "devDependencies": {
+    "lite-server": "^2.2.2",
     "webpack": "^2.2.0",
     "webpack-dev-server": "^2.2.0"
   },
